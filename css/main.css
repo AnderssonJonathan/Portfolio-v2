@@ -1,0 +1,387 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+.bodyKontakt {
+    background-image: url("../images/jonathan_FotografEmmaIvarsson-1\ \(1\).jpg");
+    height: 3000px;
+    background-size: cover;
+}
+
+/* Header/logo Title */
+
+.header {
+    /*padding: 60px;*/
+    display: flex;
+    background-image: url(../images/14775282148_35133fce4b_o\ -\ kopia.jpg);
+    background-size: cover;
+    justify-content: center;
+    height: 750px;
+    border-bottom: 1px solid #000;
+}
+
+.circle {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.3);
+
+    position: absolute;
+    top: 25%;
+    bottom: 25%;
+}
+
+.circle h1 {
+    font-size: 70px;
+    margin: 0;
+    /*position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;*/
+}
+
+.circle h4 {
+    font-size: 30px;
+    margin: 0;
+    /*position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 45%;
+    bottom: 60%;*/
+}
+
+.headerPortfolio {
+    /*padding: 60px;*/
+    display: flex;
+    background-image: url(../images/web_ericeira_110618_072.jpg);
+    background-size: cover;
+    position: relative;
+    justify-items: center;
+    padding-top: 300px;
+    padding-bottom: 100px;
+    border-bottom: 1px solid #000;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 200px;
+    width: 100%;
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    position: absolute;
+    top: 30%;
+}
+
+.headerAbout {
+    /*padding: 60px;*/
+    background-image: url(../images/42803570_334041040684472_7628232745172336640_n.jpg);
+    background-size: cover;
+    background-position: fixed;
+    position: relative;
+    height: 500px;
+
+    padding-top: 300px;
+    padding-bottom: 100px;
+}
+
+.headerAbout h1 {
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+}
+
+/* Style the top navigation bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-right: 0px;
+    border-left: 0px;
+}
+
+.navHome {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.navAbout {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.navPortfolio {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+.navContact {
+    display: flex;
+    justify-content: center;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+    color: #000;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Column container */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.rowAbout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.row, .navbar {
+    flex-direction: column;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    display: flex;
+    flex-direction: column;
+    flex: 30%;
+    background-color: #eaeaea;
+    padding: 20px;
+    border: 1px solid #000;
+    border-left: 0px;
+}
+
+.side h1 {
+    margin-bottom: 0%;
+    padding: 0%;
+}
+
+.side h5 {
+    margin-top: 0%;
+    padding: 0%;
+}
+
+.sideAbout {
+    flex: 10%;
+    background-color: #999898;
+    height: 1000px;
+}
+
+/* Main column */
+.main {
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    border-right: 0px;
+    align-items: center;
+    height: 1000px;
+}
+
+.mainCol {
+    display: flex;
+    flex-direction: column;
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    border-right: 0px;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(162, 162, 162);
+    padding: 5px;
+    margin: 1rem;
+    border-radius: 25px;
+    color: #fff;
+}
+
+.mainContainerPort {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(162, 162, 162);
+    padding: 7px;
+    margin: 2rem;
+    border-radius: 25px;
+    color: #fff;
+    width: 80%;
+    align-items: center;
+}
+
+.mainContainerRow {
+    display: flex;
+    flex-direction:row;
+    flex: 30%;
+}
+
+.mainContainerCol {
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    flex-grow: 2;
+}
+
+.mainContainerCol h4 {
+    margin-bottom: 0;
+    color: #000;
+}
+
+.mainContainerCol a {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.main h2 {
+    text-align: center;
+}
+
+.mainAbout {
+    flex: 80%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.mainKontakt {
+    flex: 80%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.mainAbout h2, .mainAbout h4 {
+    text-align: center;
+}
+
+.mainKontakt {
+    text-align: left;
+}
+
+span {
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/*img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}*/
+
+.imgPort {
+    display: flex;
+    width: 40%;
+    align-items: center;
+    justify-content:flex-end;
+}
+
+.imgPortfolio {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-image: url(../images/ridlektion_ute.jpg);
+    background-size: cover;
+    justify-items: center;
+    border-radius: 25px;
+}
+
+.profil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+}
+    
+.circleProfile {
+    background-image: url(../images/FotografEmmaIvarsson_200412_JA-28.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0;
+    position: relative;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (min-width: 600px) {
+
+    .row,
+    .navbar {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .headerPortfolio {
+        background-image: url(../images/web_ericeira_110618_072kopia.jpg);
+        padding-top: 340px;
+        padding-bottom: 250px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .headerAbout {
+        background-image: url(../images/Kontakt.jpg);
+        padding-top: 340px;
+        padding-bottom: 250px;
+    }
+    
+}
